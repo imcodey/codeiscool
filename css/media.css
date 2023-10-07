@@ -51,6 +51,7 @@
         width: 90vw;
         height: 40vh;
         margin: 20px 10px;
+        padding: 10px;
     }
     .course1 h2,p{
         font-size: 1.8em;
@@ -64,5 +65,20 @@
     .heading{
         text-align: center;
     }
-
+    .mainfoot{
+        display: block;
+        text-align: center;
+    }
+    .foot1{
+        display: block;
+        text-align: center;
+    }
+    .foot1 p{
+        font-size: 2em;
+        border: none;
+    }
+    .foot1 span{
+        text-align: center;
+        display: none;
+    }
 }
