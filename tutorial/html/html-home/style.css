@@ -17,7 +17,7 @@ nav{
     margin: 0px;
     padding: 8px 12px;
     background-color: white;
-    box-shadow: 0 0 20px 0px rgba(101, 99, 99, 0.523);
+    box-shadow: 0 0 5px 0px rgba(101, 99, 99, 0.523);
     top: 0;
     z-index: 20;
     position: sticky;
@@ -62,4 +62,10 @@ html{
 }
 .submain3{
     width: 20%;
+}
+.nav span{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px 20px;
+    /* background-color: red; */
 }
