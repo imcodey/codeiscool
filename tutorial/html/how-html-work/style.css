@@ -9,6 +9,7 @@
     color: black;
     box-sizing: border-box;
     font-family:poppins;
+    font-size: 20px;
 }
 ::-webkit-scrollbar{
     width: 0px;
@@ -73,8 +74,11 @@ html{
     border-bottom: 2px solid gray;
     border-right: 2px solid gray;
 }
+.submain2 img{
+    width: 100%;
+}
 .nav span{
-    font-size: 0.9em;
+    font-size: 0.8em;
     width: 100%;
     padding: 5px 0px;
     font-weight: 520;
@@ -107,6 +111,13 @@ html{
 }
 .submain2 p,ul{
     margin: 10px 0 10px 30px;
+}
+.submain2 h2{
+    font-size: 1.4em;
+}
+.submain2 p{
+    font-size: 0.9em;
+    font-weight: 590;
 }
 .samplecode{
     /* border: 2px solid black; */
@@ -150,6 +161,9 @@ html{
     font-size: 1.2em;
     color: white;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn button span{
     color: white;
