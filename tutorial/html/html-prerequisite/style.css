@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Frank+Ruhl+Libre:wght@300;400;500;600&family=Hind:wght@300;500;600&family=Karla:ital,wght@0,200;0,300;0,400;0,600;1,700&family=PT+Serif:ital@0;1&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    font-family:poppins;
+    font-size: 20px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    background-color: transparent;
+    overflow-x: hidden;
+    height: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 8px 12px;
+    background-color: white;
+    box-shadow: 0 0 5px 0px rgba(101, 99, 99, 0.523);
+    top: 0;
+    z-index: 20;
+    position: sticky;
+}
+nav div span{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #3AA2DB;
+}
+nav div img{
+    width: 30px;
+}
+ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.navbar li{
+    list-style-type: none;
+    padding: 12px 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #3AA2DB;
+}
+html{
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    /* box-shadow: 0 1px 5px gray; */
+}
+.submain1,.submain2,.submain3{
+    /* border: 2px solid black; */
+    /* height: auto; */
+    padding: 20px;
+}
+.submain1{
+    width: 20%;
+    /* height: auto; */
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+}
+.submain2{
+    width: 80%;
+    /* height: auto; */
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+}
+.submain2 img{
+    width: 100%;
+}
+.nav span{
+    font-size: 0.8em;
+    width: 100%;
+    padding: 5px 0px;
+    font-weight: 520;
+    /* background-color: red; */
+}
+.submain1 ul{
+    display: block;
+}
+.submain1 li{
+    list-style-type: none;
+    padding: 0 10px 0 0;
+    margin: 5px 10px;
+    font-size: 0.9em;
+    /* border: 2px solid black; */
+}
+.submain1 li span{
+    font-weight: 700;
+}
+.submain1 li a span{
+    color: #3AA2DB;
+}
+.navhead p{
+    color: #3AA2DB;
+    font-weight: 750;
+    font-size: 1.1em;
+}
+.submain2 ul{
+    display: block;
+    padding: 0 0 0 40px;
+}
+.submain2 p,ul{
+    margin: 10px 0 10px 30px;
+}
+.submain2 h2{
+    font-size: 1.4em;
+}
+.submain2 p{
+    font-size: 0.9em;
+    font-weight: 590;
+}
+.samplecode{
+    /* border: 2px solid black; */
+    width: 70vw;
+    height: auto;
+    border-radius: 10px;
+    background-color: #E7E9EB;
+    margin: 10px 0 30px 30px;
+}
+.samplecode h3{
+    margin: 20px 20px;
+    padding: 20px 0px 0px 0px;
+}
+.samplecode img{
+    width: 100%;
+    /* border-left: 5px solid rgb(12, 240, 12); */
+    padding: 20px;
+}
+.samplevedio{
+    width: 70vw;
+    /* margin: 30px 0 30px 0; */
+    margin: 30px 10px 30px 30px;
+    /* border: 2px solid black; */
+}
+.samplevedio video{
+    width: 100%;
+    border-radius: 5px;
+}
+.btn{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.btn button{
+    border: none;
+    background-color: #3AA2DB;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button span{
+    color: white;
+}
+.mainfoot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.foot1{
+    display: flex;
+    align-items: center;
+}
+.foot1 p{
+    margin: 10px;
+    padding: 2px 10px;
+    border-right: 2px solid rgba(192, 192, 192, 0.66);
+}
+.foot1 span{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 0.7em;
+}
+.foot1 img{
+    margin: 5px;
+}
+.foot2 img{
+    color: rgb(234, 109, 109);
+}

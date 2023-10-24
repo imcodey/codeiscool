@@ -181,3 +181,6 @@ html{
 .foot2 img{
     color: rgb(234, 109, 109);
 }
+.bttn{
+    text-decoration: underline;
+}
